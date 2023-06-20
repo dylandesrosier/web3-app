@@ -41,7 +41,8 @@ const Hero = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdylandesrosier%2Fweb3-app&env=NEXT_PUBLIC_INFURA_ID"
+                href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdylandesrosier%2Fweb3-app%2Ftree%2Fwalletconnect-v2
+                &env=NEXT_PUBLIC_INFURA_ID,NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID"
                 className="btn btn-primary btn-outline"
               >
                 Deploy on Vercel
