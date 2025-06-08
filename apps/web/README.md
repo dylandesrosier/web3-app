@@ -1,28 +1,47 @@
+# A Simple Web3 App Template
+
+A mildly opinionated, slim app configured with some of my favourite tools for building web3 apps.
+
+[App - React](https://reactjs.org)
+
+[App - Next](https://nextjs.org/)
+
+[Wallet Connection - RainbowKit](https://rainbowkit.com/)
+
+[Blockchain Querying - WAGMI](https://wagmi.sh/)
+
+[Data Storage - Jotai](https://jotai.org)
+
+[Data Fetching - React Query](https://react-query-v3.tanstack.com)
+
+[Styling - Tailwind](https://tailwindcss.com)
+
+[Icons - Feather Icons](https://www.npmjs.com/package/react-feather)
+
 ## Getting Started
 
-First, run the development server:
+Use this repo as a template through GitHub's interface above or deploy straight to Vercel below.
 
-```bash
-yarn dev
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdylandesrosier%2Fweb3-app&env=NEXT_PUBLIC_INFURA_ID)
+
+### Installation
+
+Install packages
+
+```
+bun install
 ```
 
-Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
+Set up environment variables
 
-You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+```
+cp .env.local.template .env.local && open -t .env.local
+```
 
-To create [API routes](https://nextjs.org/docs/app/building-your-application/routing/router-handlers) add an `api/` directory to the `app/` directory with a `route.ts` file. For individual endpoints, create a subfolder in the `api` directory, like `api/hello/route.ts` would map to [http://localhost:3001/api/hello](http://localhost:3001/api/hello).
+### Development server
 
-## Learn More
+Run development server
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_source=github.com&utm_medium=referral&utm_campaign=turborepo-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+bun dev
+```
