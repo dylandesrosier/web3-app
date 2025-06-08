@@ -1,0 +1,22 @@
+{
+  "name": "@repo/library",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "license": "MIT",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src --max-warnings 0"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/tailwind-config": "*",
+    "@repo/typescript-config": "*",
+    "eslint": "^9.26.0",
+    "tsup": "^8.5.0",
+    "typescript": "5.8.2"
+  },
+  "dependencies": {}
+}
