@@ -6,12 +6,13 @@
     "turbo": "^2.5.3"
   },
   "engines": {
-    "node": ">=22"
+    "node": "22"
   },
   "packageManager": "bun@1.2.3",
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "build:web": "turbo run build --filter=web",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "check-types": "turbo run check-types",
